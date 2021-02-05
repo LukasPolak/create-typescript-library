@@ -54,6 +54,6 @@ Follow this instructions to publish the library:
 
 1. Log in with your [NPM](http://npmjs.com/) account (verify your current user with `npm whoami`).
 1. Run `yarn publish`.
-1. Set the next version of the library.
+1. Set the next version of the library (e.g. `npm version patch`).
 1. Wait for the build to succeed.
 1. Push the release commit and tag with `git push --follow-tags`.

@@ -1,4 +1,4 @@
-# Library name
+# create-typescript-library
 
 > A short description about what your library is.
 
@@ -13,7 +13,13 @@
 ### Install
 
 ```bash
-$ npm install <LIBRARY_NAME>
+npm install @lukaspolak/create-typescript-library
+```
+
+or
+
+```bash
+yarn add @lukaspolak/create-typescript-library
 ```
 
 ## Documentation
@@ -23,3 +29,9 @@ $ npm install <LIBRARY_NAME>
 ## Contributing
 
 Please read the [Contribution guidelines](.github/CONTRIBUTING.md) to start with your awesome contributions!
+
+## INITIALIZATION TODO
+
+- [ ] replace `create-typescript-library` with repository name
+- [ ] update keywords in `package.json` file
+- [ ] for react based library install `@types/react` and `react` dev dependencies (`yarn add @types/react react -D`), and add `"jsx": "react"` to `tsconfig.json` file
