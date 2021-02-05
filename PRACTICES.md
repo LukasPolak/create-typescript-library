@@ -6,6 +6,11 @@ This template repository comes with a number of best practices set up and config
 
 - Uses `eslint` recommended configuration with TypeScript.
 - Uses `eslint-plugin-jest` for linting test suites.
+- Uses `prettier` for formating code
+
+## Git
+
+- Uses `Commitizen`for formatting commit messages
 
 ## Productivity
 
