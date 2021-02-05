@@ -18,6 +18,7 @@
     "format": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:silent": "jest --silent",
     "prepublishOnly": "yarn build && yarn test",
     "preversion": "yarn build && yarn test",
     "version": "yarn run format && git add -A src",
@@ -35,7 +36,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
-    }
+    },
+    "pre-push": "yarn build && yarn test:silent"
   },
   "devDependencies": {
     "@lukaspolak/prettier-config": "^0.0.3",
