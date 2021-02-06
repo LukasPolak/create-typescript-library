@@ -15,19 +15,19 @@ For creating a new file, you can use [hygen](https://github.com/jondot/hygen/) c
 ## Git workflow
 
 ```bash
-$ git checkout -b <FEATURE>
-$ git add .
-$ git commit -m 'Adds contribution guidelines'
-$ git push -u origin <FEATURE>
+git checkout -b <FEATURE>
+git add .
+git commit -m 'Adds contribution guidelines'
+git push -u origin <FEATURE>
 ```
 
 Ensure that your feature branch is up-to-date with the latest `main` before assigning it for code review:
 
 ```bash
-$ git checkout master
-$ git pull --rebase
-$ git checkout <FEATURE>
-$ git rebase master
+git checkout master
+git pull --rebase
+git checkout <FEATURE>
+git rebase master
 ```
 
 Once your changes are ready, open a Pull request and assign one of the library maintainers as a reviewer. We will go through your changes and ensure they land in the next release.
@@ -35,7 +35,7 @@ Once your changes are ready, open a Pull request and assign one of the library m
 ## Develop
 
 ```bash
-$ yarn start
+yarn start
 ```
 
 ## Test
@@ -43,13 +43,13 @@ $ yarn start
 ### Run all tests
 
 ```bash
-$ yarn test
+yarn test
 ```
 
 ### Run a single test
 
 ```bash
-$ yarn test test/add.test.ts
+yarn test test/add.test.ts
 ```
 
 ## Publish

@@ -12,7 +12,7 @@ labels: bug
 ## Reproduction steps
 
 <!-- List the steps to follow in order to reproduce the issue. -->
-<!-- BOUNS: Include a reproduction repository to help resolve the issue faster. -->
+<!-- BONUS: Include a reproduction repository to help resolve the issue faster. -->
 
 ## Expected behavior
 

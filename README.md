@@ -30,6 +30,10 @@ yarn add @lukaspolak/create-typescript-library
 
 Please read the [Contribution guidelines](.github/CONTRIBUTING.md) to start with your awesome contributions!
 
+## Why the library is prefixed with `@lukaspolak/`
+
+There are a lot of similar libraries/packages on [GitHub](https://github.com/features/packages) and [npm](https://www.npmjs.com/), that can do the same. I wanted to enhance my programming skills, and I didn't want to find a unique name for the package.
+
 ## INITIALIZATION TODO
 
 - [ ] replace `create-typescript-library` with repository name
