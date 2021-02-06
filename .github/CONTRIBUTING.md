@@ -8,6 +8,10 @@ Thank you for considering contributing to this library! Below you can find the i
 - [TypeScript](https://www.typescriptlang.org/)
 - [Jest](https://jestjs.io/)
 
+## Hygen generator
+
+For creating a new file, you can use [hygen](https://github.com/jondot/hygen/) code generator - `yarn run hygen:file`. It will ensure codebase consistency.
+
 ## Git workflow
 
 ```bash
