@@ -42,8 +42,11 @@ There are a lot of similar libraries/packages on [GitHub](https://github.com/fea
 - [ ] update `keywords` in `package.json` file
 - [ ] remove `INITIALIZATION TODO` section
 - [ ] update `buildEsm.input` array with correct paths
+- [ ] replace quoted text in `README.md` file
 
-For [React](https://reactjs.org/) based library install (`yarn add @types/react react -D`) dev dependencies, and update `tsconfig.json` file with:
+For [React](https://reactjs.org/) based library install (`yarn add @types/react react -D`) dev dependencies. Script for linting should be changed to: `"lint": "eslint './{src,test}/**/*.{ts,tsx}'",`
+
+Also update `tsconfig.json` file with:
 
 ```jsonc
 {
