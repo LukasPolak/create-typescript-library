@@ -34,4 +34,20 @@ Please read the [Contribution guidelines](.github/CONTRIBUTING.md) to start with
 
 - [ ] replace `create-typescript-library` with repository name
 - [ ] update keywords in `package.json` file
-- [ ] for react based library install `@types/react` and `react` dev dependencies (`yarn add @types/react react -D`), and add `"jsx": "react"` to `tsconfig.json` file
+- [ ] remove `INITIALIZATION TODO` section
+
+For [React](https://reactjs.org/) based library install (`yarn add @types/react react -D`) dev dependencies, and update `tsconfig.json` file with:
+
+```jsonc
+{
+  // ...
+  "compilerOptions": {
+    // ...
+    "allowSyntheticDefaultImports": true, // replace original
+    "jsx": "react", // add
+    "esModuleInterop": true // add
+    // ...
+  }
+  // ...
+}
+```
