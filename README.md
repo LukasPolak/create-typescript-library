@@ -39,7 +39,7 @@ There are a lot of similar libraries/packages on [GitHub](https://github.com/fea
 ## INITIALIZATION TODO
 
 - [ ] replace `create-typescript-library` with repository name
-- [ ] update `keywords` and `version` in `package.json` file
+- [ ] update `keywords` in `package.json` file
 - [ ] remove `INITIALIZATION TODO` section
 - [ ] update `buildEsm.input` array with correct paths
 
