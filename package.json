@@ -1,6 +1,6 @@
 {
   "name": "@lukaspolak/create-typescript-library",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A repository template for a TypeScript library.",
   "keywords": [],
   "repository": "git@github.com:lukaspolak/create-typescript-library.git",
