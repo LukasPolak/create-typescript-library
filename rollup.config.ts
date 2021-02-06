@@ -20,13 +20,7 @@ const plugins = [
 ]
 
 const buildEsm = {
-  input: [
-    'src/index.ts',
-    // List non-dependent modules so they could be tree-shaken
-    // by the library's consumer.
-    'src/add.ts',
-    'src/multiply.ts',
-  ],
+  input: ['src/index.ts'],
   output: {
     format: 'esm',
     entryFileNames: '[name].js',
