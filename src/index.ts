@@ -1,2 +1,3 @@
-export { add } from './add'
-export { multiply } from './multiply'
+export const add = (a: number, b: number): number => {
+  return a + b
+}
