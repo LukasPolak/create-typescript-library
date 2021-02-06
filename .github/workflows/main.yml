@@ -21,4 +21,7 @@ jobs:
         run: yarn build
 
       - name: Testing the library
-        run: yarn test
+        run: yarn test:coverage
+
+      - name: Codecov
+        uses: codecov/codecov-action@v1.2.1
