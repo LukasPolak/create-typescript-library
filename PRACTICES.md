@@ -4,18 +4,18 @@ This template repository comes with a number of best practices set up and config
 
 ## Linting
 
-- Uses `eslint` recommended configuration with TypeScript.
-- Uses `eslint-plugin-jest` for linting test suites.
-- Uses `prettier` for formating code
+- Uses [ESLint](https://eslint.org/) recommended configuration with TypeScript.
+- Uses [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest#readme) for linting test suites.
+- Uses [Prettier](https://prettier.io/) for formating code
 
 ## Git
 
-- Uses `Commitizen`for formatting commit messages
+- Uses [Commitizen](https://github.com/commitizen/cz-cli) for formatting commit messages
 
 ## Productivity
 
-- Comes with a pre-configured CI pipeline (GitHub Actions).
-- Lints all staged files for commit via `husky` and `lint-staged`, preventing statically checked mistakes to be committed in the first place.
+- Comes with a pre-configured CI pipeline ([GitHub Actions](https://github.com/features/actions)).
+- Lints all staged files for commit via [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged), preventing statically checked mistakes to be committed in the first place.
 - Configured import aliases (`compilerOptions.paths`) for shorter modules references during development and testing.
 
 ## Community
