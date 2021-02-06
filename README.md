@@ -1,5 +1,7 @@
 # create-typescript-library
 
+![checks-status](https://img.shields.io/github/checks-status/LukasPolak/create-typescript-library/main?style=flat-square) ![workflow/status](https://img.shields.io/github/workflow/status/lukaspolak/create-typescript-library/CI?style=flat-square) ![codecov](https://img.shields.io/codecov/c/github/lukaspolak/create-typescript-library?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@lukaspolak/create-typescript-library?style=flat-square) ![npm](https://img.shields.io/npm/v/@lukaspolak/create-typescript-library?style=flat-square)
+
 > A short description about what your library is.
 
 ## Motivation
@@ -37,8 +39,9 @@ There are a lot of similar libraries/packages on [GitHub](https://github.com/fea
 ## INITIALIZATION TODO
 
 - [ ] replace `create-typescript-library` with repository name
-- [ ] update keywords in `package.json` file
+- [ ] update `keywords` and `version` in `package.json` file
 - [ ] remove `INITIALIZATION TODO` section
+- [ ] update `buildEsm.input` array with correct paths
 
 For [React](https://reactjs.org/) based library install (`yarn add @types/react react -D`) dev dependencies, and update `tsconfig.json` file with:
 
