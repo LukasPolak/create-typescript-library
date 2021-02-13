@@ -20,10 +20,11 @@
     "format": "prettier --write .",
     "hygen:file": "hygen file new",
     "lint": "eslint ./{src,test}/**/*.ts",
-    "prepublishOnly": "yarn build && yarn test",
+    "prepublishOnly": "yarn build && yarn test:lib && yarn test",
     "start": "rollup -c rollup.config.ts -w",
     "test": "jest",
     "test:coverage": "jest --collectCoverage",
+    "test:lib": "jest STANDARDS.ts --testRegex=\"(STANDARDS\\.ts)\"",
     "test:silent": "jest --silent",
     "test:watch": "jest --watch",
     "preversion": "yarn build && yarn test",
@@ -38,8 +39,8 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint",
-      "prettier"
+      "prettier --write",
+      "eslint --fix"
     ]
   },
   "prettier": "@lukaspolak/prettier-config",
@@ -68,5 +69,8 @@
     "ts-jest": "^26.5.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
+  },
+  "engines": {
+    "node": ">= 14.15.1"
   }
 }
