@@ -4,7 +4,7 @@
 
 > A short description about what your library is.
 
-## Playground
+## Demo
 
 [CodeSandbox](link-to-codesandbox)
 
