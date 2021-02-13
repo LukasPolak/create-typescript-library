@@ -34,7 +34,7 @@ yarn add @lukaspolak/create-typescript-library
 
 ## Contributing
 
-Please read the [Contribution guidelines](.github/CONTRIBUTING.md) to start with your awesome contributions!
+Please read the [Contribution guidelines](CONTRIBUTING.md) to start with your awesome contributions!
 
 ## Why the library is prefixed with `@lukaspolak/`
 
@@ -44,17 +44,17 @@ There are a lot of similar libraries/packages on [GitHub](https://github.com/fea
 
 - [ ] replace `create-typescript-library` with repository name
 - [ ] update `keywords` and `description` in `package.json` file
-- [ ] remove `INITIALIZATION TODO` section
 - [ ] update `buildEsm.input` array with correct paths inside `rollup.config.ts` file
 - [ ] replace quoted text in `README.md` file
-- [ ] Create and add playground link to CodeSandbox
-- [ ] add `Topics` to gh repository
+- [ ] create and add playground link to CodeSandbox
+- [ ] add `Topics` to GitHub repository
+- [ ] remove `INITIALIZATION TODO` section
 
 For [React](https://reactjs.org/) based library:
 
-- install (`yarn add @types/react react -D`) dev dependencies.
-- Script for linting should be changed to: `"lint": "eslint './{src,test}/**/*.{ts,tsx}'",`
-- Add `peerDependencies` object to `package.json` file
+- [ ] install (`yarn add @types/react react -D`) dev dependencies.
+- [ ] change script for linting to: `"lint": "eslint './{src,test}/**/*.{ts,tsx}'",`
+- [ ] add `peerDependencies` object to `package.json` file
 
 ```jsonc
 {
@@ -90,5 +90,3 @@ Also update `tsconfig.json` file with:
   "include": ["**/*.test.ts"] // update this line accordingly
 }
 ```
-
-Please read the [Contribution guidelines](CONTRIBUTING.md) to start with your awesome contributions!
