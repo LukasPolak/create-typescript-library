@@ -90,3 +90,5 @@ Also update `tsconfig.json` file with:
   "include": ["**/*.test.ts"] // update this line accordingly
 }
 ```
+
+Please read the [Contribution guidelines](CONTRIBUTING.md) to start with your awesome contributions!
