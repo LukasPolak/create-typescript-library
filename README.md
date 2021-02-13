@@ -6,7 +6,7 @@
 
 ## Demo
 
-[CodeSandbox](link-to-codesandbox)
+[CodeSandbox]()
 
 ## Motivation
 
@@ -47,7 +47,8 @@ There are a lot of similar libraries/packages on [GitHub](https://github.com/fea
 - [ ] remove `INITIALIZATION TODO` section
 - [ ] update `buildEsm.input` array with correct paths inside `rollup.config.ts` file
 - [ ] replace quoted text in `README.md` file
-- [ ] Create and add playground link instead of `link-to-codesandbox`
+- [ ] Create and add playground link to CodeSandbox
+- [ ] add `Topics` to gh repository
 
 For [React](https://reactjs.org/) based library:
 
@@ -77,7 +78,15 @@ Also update `tsconfig.json` file with:
     // ...
   },
   // ...
-  "include": ["src/**/*.{ts,tsx}"] // replace original
+  "include": ["src/**/*.ts"] // update this line accordingly
   // ...
+}
+```
+
+```jsonc
+// test/tsconfig.json
+{
+  // ...
+  "include": ["**/*.test.ts"] // update this line accordingly
 }
 ```
