@@ -61,3 +61,5 @@ Also update `tsconfig.json` file with:
   // ...
 }
 ```
+
+Please read the [Contribution guidelines](CONTRIBUTING.md) to start with your awesome contributions!
