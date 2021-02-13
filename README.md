@@ -4,6 +4,10 @@
 
 > A short description about what your library is.
 
+## Demo
+
+[CodeSandbox]()
+
 ## Motivation
 
 > Elaborate on the reason behind this library: why may people need it? What issues does it solve? How is it different from the similar libraries?
@@ -39,12 +43,27 @@ There are a lot of similar libraries/packages on [GitHub](https://github.com/fea
 ## INITIALIZATION TODO
 
 - [ ] replace `create-typescript-library` with repository name
-- [ ] update `keywords` in `package.json` file
+- [ ] update `keywords` and `description` in `package.json` file
 - [ ] remove `INITIALIZATION TODO` section
-- [ ] update `buildEsm.input` array with correct paths
+- [ ] update `buildEsm.input` array with correct paths inside `rollup.config.ts` file
 - [ ] replace quoted text in `README.md` file
+- [ ] Create and add playground link to CodeSandbox
+- [ ] add `Topics` to gh repository
 
-For [React](https://reactjs.org/) based library install (`yarn add @types/react react -D`) dev dependencies. Script for linting should be changed to: `"lint": "eslint './{src,test}/**/*.{ts,tsx}'",`
+For [React](https://reactjs.org/) based library:
+
+- install (`yarn add @types/react react -D`) dev dependencies.
+- Script for linting should be changed to: `"lint": "eslint './{src,test}/**/*.{ts,tsx}'",`
+- Add `peerDependencies` object to `package.json` file
+
+```jsonc
+{
+  //...
+  "peerDependencies": {
+    "react": "^17.0.1" // replace `17.0.1` with latest version
+  }
+}
+```
 
 Also update `tsconfig.json` file with:
 
@@ -57,8 +76,18 @@ Also update `tsconfig.json` file with:
     "jsx": "react", // add
     "esModuleInterop": true // add
     // ...
-  }
+  },
   // ...
+  "include": ["src/**/*.ts"] // update this line accordingly
+  // ...
+}
+```
+
+```jsonc
+// test/tsconfig.json
+{
+  // ...
+  "include": ["**/*.test.ts"] // update this line accordingly
 }
 ```
 
